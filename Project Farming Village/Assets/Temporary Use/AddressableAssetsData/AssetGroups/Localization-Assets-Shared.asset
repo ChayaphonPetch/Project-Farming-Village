@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e252e4e9b7e080747a47924aab1731f2
+  m_SerializeEntries:
+  - m_GUID: bd2473242a6d2ba4b89b7a37eff068d9
+    m_Address: Assets/Locale/Tables/Setting Translate Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 725406849c3d00e40840226b3e1f3880
+    m_Address: Assets/Locale/Tables/Main Menu Transalate Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e29baee94cf8f6f41ac4dfe0cbe8e2fe
+    m_Address: Assets/Locale/Tables/Save Transalate Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 9acc4c61bca38d04faaf8e584b7e02f2, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 86d24727895f4f542ab6f2083a594410, type: 2}
+    - {fileID: 11400000, guid: aa7eb7f46720e574d9804e85918fc90d, type: 2}
