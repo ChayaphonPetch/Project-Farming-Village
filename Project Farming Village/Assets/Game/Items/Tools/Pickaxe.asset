@@ -17,4 +17,7 @@ MonoBehaviour:
   actionType: 0
   range: {x: 5, y: 4}
   stackable: 1
+  sellable: 0
+  price: 0
   image: {fileID: 21300000, guid: 3f3df3bc6759225468264c0e926e1923, type: 3}
+  Item_Id: 0

@@ -14,6 +14,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/Scarlet Dev/Secret Scarlet.unity
     guid: 9842e3ea295ddc143b52c0f19cbb6ea7
+  - enabled: 1
+    path: Assets/Scenes 1/MainMap.unity
+    guid: ed8acd73673c5ab4782174bfac8f0c32
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: f23314642bf3505419dc4937f43a944e
+  - enabled: 1
+    path: Assets/Scenes/NPC1.unity
+    guid: 29e6f1064b0f6cb43af53506f2933724
+  - enabled: 1
+    path: Assets/Scenes/NPC2.unity
+    guid: a750b20c29227c64c839e2d049cab84b
+  - enabled: 1
+    path: Assets/Scenes/NPC3.unity
+    guid: 77d74913c134a444aaaabced24d84441
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: ce8343d8189d4c64eaa276a84d4f07cc
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 5ef3b035559092a4f839413674f54398, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: ddaa46afe43ab2748886925264339878, type: 2}

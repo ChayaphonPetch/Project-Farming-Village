@@ -35,7 +35,6 @@ public class InventoryManager : MonoBehaviour
                 newSlot = 0;
             }
 
-            Debug.Log(newSlot);
             ChangeSelectedSlot(newSlot);
         }
 
