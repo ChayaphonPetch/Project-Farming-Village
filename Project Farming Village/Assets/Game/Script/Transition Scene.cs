@@ -14,6 +14,7 @@ public class TransitionScene : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Work");
+            DataPersistenceManager.Instance.SaveGame();
             LoadNextScene();
         }
     }

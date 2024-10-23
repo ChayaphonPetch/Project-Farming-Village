@@ -2,13 +2,13 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Rendering.Universal;
 
-public class ClockTime : MonoBehaviour
+public class ClockTime : MonoBehaviour, IDataPersistence
 {
     public TextMeshProUGUI timeDisplay;
     public TextMeshProUGUI dayDisplay;
     public int day = 1;
-    private int hours = 11;
-    private int minutes = 50;
+    private int hours = 6;
+    private int minutes = 30;
     private bool isAM = true;
     private float timer = 0f;
     public float realSecondsPerGameMinute = 12f; // 1 real minute = 5 in-game minutes
@@ -31,7 +31,22 @@ public class ClockTime : MonoBehaviour
         }
 
         UpdateTimeDisplay();
-        UpdateDayNightCycle();
+    }
+
+    public void LoadData(GameData data)
+    {
+        this.day = data._Days;
+        this.hours = data._Hours;
+        this.minutes = data._Minutes;
+        this.isAM = data._iAM;
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        data._Days = this.day;
+        data._Hours = this.hours;
+        data._Minutes = this.minutes;
+        data._iAM = this.isAM;
     }
 
     void IncrementTime(int minuteAmount)
@@ -79,12 +94,7 @@ public class ClockTime : MonoBehaviour
         dayDisplay.text = "Day " + day;
     }
 
-    void UpdateDayNightCycle()
-    {
-        // Get the current color based on the time of day
-        Color currentLightColor = dayNightGradient.Evaluate(timeOfDayNormalized);
-        sunLight.color = currentLightColor;
-    }
+   
 
     // Returns a normalized time based on the hours and minutes (0 = midnight, 1 = next midnight)
     float GetNormalizedTime()
