@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8d40c6198b7414cbe3a376568718b0, type: 3}
+  m_Name: Onion Seed
+  m_EditorClassIdentifier: 
+  tile: {fileID: 0}
+  type: 2
+  actionType: 5
+  range: {x: 5, y: 4}
+  stackable: 1
+  sellable: 1
+  price: 20
+  image: {fileID: 2119137690, guid: 97f2c4b27e23d524ca7a75104e60493a, type: 3}
+  Item_Id: 0

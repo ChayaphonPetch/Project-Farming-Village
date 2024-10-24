@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Himeko
   m_EditorClassIdentifier: 
   tile: {fileID: 0}
-  type: 0
+  type: 3
   actionType: 0
   range: {x: 5, y: 4}
   stackable: 1
+  sellable: 1
+  price: 300
   image: {fileID: 21300000, guid: 56403ceb71b6c284296fc4e8fbf5c2f7, type: 3}
-  ID: 2
+  Item_Id: 0

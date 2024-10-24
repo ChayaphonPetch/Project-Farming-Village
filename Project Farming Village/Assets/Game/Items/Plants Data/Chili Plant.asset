@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814d460719881764eaa2926ab45c748a, type: 3}
+  m_Name: Chili Plant
+  m_EditorClassIdentifier: 
+  PlantName: Chili
+  DayGlowing: 6
+  Level1: {fileID: -1887979575, guid: 894bea29fe1d5de4c9f62ecd55d88eaa, type: 3}
+  Level2: {fileID: -87583007, guid: 894bea29fe1d5de4c9f62ecd55d88eaa, type: 3}
+  Level3: {fileID: -1302100222, guid: 894bea29fe1d5de4c9f62ecd55d88eaa, type: 3}

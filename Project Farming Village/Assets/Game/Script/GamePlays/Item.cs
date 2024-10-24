@@ -28,7 +28,7 @@ public class Item : ScriptableObject {
 
 public enum ItemType
 {
-    TEST, Tool, Seed
+    TEST, Tool, Seed, Material
 }
 
 public enum ActionType
